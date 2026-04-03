@@ -11,9 +11,9 @@ title: Blog
   <p>{{ post.date | date: "%B %d, %Y" }}</p>
 
   {% if post.image %}
-    <img src="{{ post.image }}">
+    <img src="{{ post.image }}" alt="{{ post.title }}">
   {% endif %}
 
-  <p>{{ post.excerpt }}</p>
+  <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
 </div>
 {% endfor %}
