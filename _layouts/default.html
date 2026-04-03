@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ page.title }} | Abdullah Ahmad Mirza</title>
-<link rel="stylesheet" href="/assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Abdullah Ahmad Mirza</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/blog.html">Blog</a>
+    </nav>
+  </header>
 
-<header>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/contact.html">Contact</a>
-    <a href="/blog.html">Blog</a>
-  </nav>
-</header>
+  <main>
+    {{ content }}
+  </main>
 
-<main>
-  {{ content }}
-</main>
-
-<footer>
-  <p>© 2026 Abdullah Ahmad Mirza</p>
-</footer>
-
+  <footer>
+    <p>© 2026 Abdullah Ahmad Mirza</p>
+  </footer>
 </body>
 </html>
