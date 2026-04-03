@@ -5,6 +5,7 @@ title: Home
 
 # Abdullah Ahmad Mirza
 
-Computer Engineering student at UET Lahore.
+Computer Engineering Student at UET Lahore  
+Aspiring Software Engineer | AI Enthusiast | Blogger  
 
-I am passionate about AI, coding, and building modern websites.
+Welcome to my personal website! Explore my journey, experiences, and blog posts.
