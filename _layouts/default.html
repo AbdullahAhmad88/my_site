@@ -1,62 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | Abdullah Ahmad Mirza</title>
-
-  <link rel="stylesheet" href="/assets/css/style.css">
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-      background: #f9f9f9;
-      line-height: 1.6;
-    }
-
-    nav {
-      margin-bottom: 30px;
-    }
-
-    nav a {
-      margin-right: 15px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #333;
-    }
-
-    nav a:hover {
-      color: #007acc;
-    }
-
-    footer {
-      margin-top: 40px;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }} | Abdullah Ahmad Mirza</title>
+<link rel="stylesheet" href="/assets/css/style.css">
 </head>
-
 <body>
 
-<!-- 🔝 NAVBAR -->
-<nav>
-  <a href="/">Home</a>
-  <a href="/about.html">About</a>
-  <a href="/contact.html">Contact</a>
-  <a href="/blog.html">Blog</a>
-</nav>
+<header>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/blog.html">Blog</a>
+  </nav>
+</header>
 
-<hr>
+<main>
+  {{ content }}
+</main>
 
-<!-- 📄 PAGE CONTENT -->
-{{ content }}
-
-<hr>
-
-<!-- 🔻 FOOTER -->
 <footer>
   <p>© 2026 Abdullah Ahmad Mirza</p>
 </footer>
